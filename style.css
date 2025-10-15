@@ -32,3 +32,16 @@
     height: 50%;
     object-fit: cover;
 }
+@media (max-width: 768px){
+    .hero{
+        flex-direction: column;
+    }
+    .left-div, .right-div{
+        width: 100%;
+        text-align: center;
+    }
+    .right-div img{
+        width: 80%;
+        height: auto;
+        margin-top: 20px;}
+}
